@@ -1,0 +1,35 @@
+{
+    "name": "piece/piece-validationdirectoryloader-bundle",
+    "type": "symfony-bundle",
+    "description": "A Symfony bundle that loads validation mapping files from any directories",
+    "keywords": ["validation"],
+    "homepage": "http://redmine.piece-framework.com/projects/piece-validationdirectoryloader-bundle",
+    "version": "1.0.0",
+    "license": "New BSD License",
+    "authors": [
+        {
+            "name": "KUBO Atsuhiro",
+            "email": "kubo@iteman.jp"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "recommend": {
+        "symfony/config": ">=2.0.0",
+        "symfony/dependency-injection": ">=2.0.0",
+        "symfony/finder": ">=2.0.0",
+        "symfony/http-kernel": ">=2.0.0"
+    },
+    "suggest": {
+        "symfony/form": ">=2.0.0",
+        "symfony/framework-bundle": ">=2.0.0",
+        "symfony/yaml": ">=2.0.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Piece\\Bundle\\ValidationDirectoryLoaderBundle": ""
+        }
+    },
+    "target-dir" : "Piece/Bundle/ValidationDirectoryLoaderBundle"
+}
