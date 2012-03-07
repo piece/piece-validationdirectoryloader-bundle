@@ -5,7 +5,7 @@
     "keywords": ["validation"],
     "homepage": "http://redmine.piece-framework.com/projects/piece-validationdirectoryloader-bundle",
     "version": "1.0.0",
-    "license": "New BSD License",
+    "license": "BSD-2",
     "authors": [
         {
             "name": "KUBO Atsuhiro",
