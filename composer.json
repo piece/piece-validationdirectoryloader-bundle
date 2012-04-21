@@ -3,7 +3,7 @@
     "type": "symfony-bundle",
     "description": "A Symfony bundle that loads validation mapping files from any directories",
     "keywords": ["validation"],
-    "homepage": "http://redmine.piece-framework.com/projects/piece-validationdirectoryloader-bundle",
+    "homepage": "http://piece-framework.com/projects/piece-validationdirectoryloader-bundle",
     "license": "BSD-2",
     "authors": [
         {
