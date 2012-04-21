@@ -4,7 +4,6 @@
     "description": "A Symfony bundle that loads validation mapping files from any directories",
     "keywords": ["validation"],
     "homepage": "http://redmine.piece-framework.com/projects/piece-validationdirectoryloader-bundle",
-    "version": "1.0.0",
     "license": "BSD-2",
     "authors": [
         {
@@ -31,5 +30,10 @@
             "Piece\\Bundle\\ValidationDirectoryLoaderBundle": ""
         }
     },
-    "target-dir" : "Piece/Bundle/ValidationDirectoryLoaderBundle"
+    "target-dir" : "Piece/Bundle/ValidationDirectoryLoaderBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
 }
