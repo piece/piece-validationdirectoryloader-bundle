@@ -75,7 +75,7 @@ class PieceValidationDirectoryLoaderExtension extends Extension
             ->name('*.xml')
             ->name('*.yml')
             ->in($config['mapping_dirs']);
-        foreach ($finder->getIterator() as $file) { /* @var $file \SplFileInfo */
+        foreach ($finder as $file) { /* @var $file \SplFileInfo */
             $container->addResource(new FileResource($file->getPathname()));
             if (substr($file->getFilename(), - strlen('.xml'), strlen('.xml')) === '.xml') {
                 $xmlMappingFiles[] = $file->getPathname();
